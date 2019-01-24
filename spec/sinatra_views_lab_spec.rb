@@ -14,10 +14,10 @@ describe App do
     end
   end
 
-  # describe 'GET /goodbye' do
-  #   before do
-  #     get '/goodbye'
-  #   end
+  describe 'GET /goodbye' do
+    before do
+      get '/goodbye'
+    end
   #
   #   it 'sends a 200 status code' do
   #     expect(last_response.status).to eq(200)
@@ -47,5 +47,5 @@ describe App do
   #       fail "Your application is not responding to GET /date. Did you create that route?"
   #     end
   #   end
-  # end
+  end
 end
